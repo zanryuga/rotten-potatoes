@@ -47,4 +47,4 @@ jobs:
         with:
           images: zanryuga/rotten-potatoes:v${{ github.run_number }}
           manifests: |
-            k8s/Deployment.yaml
+            k8s/deployment.yaml
